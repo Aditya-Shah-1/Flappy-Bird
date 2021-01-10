@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="flappy-bird-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body id="body">
+    <button class="mode" id="mode" onClick="modeChange()"><i class="fas fa-moon" style="margin-right: 2px;"></i>Dark mode</button>
+    <div class="game-holder" id="game-holder">
+        <h1>Flappy Bird</h1>
+        <div id="game">
+            <div id="block"></div>
+            <div id="hole"></div>
+            <div id="character"></div>
+            <div class="game-bottom-line"></div>
+        </div>
+    </div>
+    <div class="bottom-line" id="bottom-line"><div class="right-text">Site developed by Aditya Shah</div></div>
+    <script src="script.js"></script>
+</body>
+</html>
